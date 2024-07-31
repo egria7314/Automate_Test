@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "robotframework-bosch"
+version = "0.1.0"
+description = ""
+authors = ["dannydhlai <dannydhlai@mobiledrivetech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+robotframework = "^7.0.1"
+selenium = "^4.23.1"
+robotframework-seleniumlibrary = "^6.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
